@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    font-size: 20px;
+}
+
+body {
+    
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif; color: #ffffff;
+    font-size: 20px;
+    background-size: contain;
+    
+
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 120px;
+    width: 100%;
+    align-items: center;
+    background-color:#D9E1EB;
+    padding: 20px;
+    
+    
+   
+
+}
+
+header nav ul li:hover {
+    text-decoration:underline
+}
+@media screen and (min-width: 700px) {
+    header {
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 768px) {
+    .box1,
+    .box2,
+    .box3 {
+        width: 100%;
+        height: auto;
+       
+    }
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+main {
+    width: 100%;
+    margin: 1rem;
+    padding: 150px 0 0 0;
+    color: #ffffff;
+    width: 100%;
+}
+
+.box1 {
+    background-color: #B7D6FD ;
+    position: absolute;
+    width: 1031px;
+    height: 532px;
+    left: 135px;
+    top: 179px;
+    border-radius: 9px;
+    text-align: left;
+    margin-top: 200px;
+}
+.box2 {
+    background-color: #B7D6FD ;
+    position: absolute;
+    width: 1031px;
+    height: 532px;
+    left: 135px;
+    top: 771px;
+    border-radius: 9px;
+     
+}
+.box3 {
+    background-color: #B7D6FD ;
+    position: absolute;
+    width: 1031px;
+    height: 532px;
+    left: 135px;
+    top: 1363px;
+    border-radius: 9px;
+     
+
+}
+
+
+.First-Paragraph {
+    color: black;
+}
+
+.black-text {
+    color: #000000;
+}
+
+.skjermbilde1 {
+    border-radius: 43px;
+    position: absolute;
+    width: 233px;
+    height: 492px;
+    left: 750px;
+    top: 20px;  
+    
+}
+
+.skjermbilde2 {
+    position: absolute;
+    width: 150px;
+    height: 272px;
+    left: 600px;
+    top: 200px;
+    border-radius: 20px;
+}
+
+.skjermbilde3 {
+    position: absolute;
+    width: 150px;
+    height: 300px;
+    left: 800px;
+    top: 200px;
+    border-radius: 20px;
+}
+
+.skjermbilde4 {
+position: absolute;
+width: 150px;
+height: 300px;
+left: 275px;
+top: 150px;
+border-radius: 17px;
+
+}
+
+.skjermbilde5 {
+position: absolute;
+width: 150px;
+height: 299px;
+left: 530px;
+top: 150px;
+border-radius: 17px;
+
+}
+
+.Knapp {
+    
+        background-color: #001838;
+        color: #ffffff;
+        border: none;
+        padding: 20px 50px;
+        border-radius: 5px;
+        font-size: 24px;
+        
+      }
+      
+      .Knapp:hover {
+        background-color: #D9E1EB;
+        color: #000000;
+      }
+
+      .Knapp {
+        position: absolute;
+        top: 400px;
+        left: 130px;
+      }
+
