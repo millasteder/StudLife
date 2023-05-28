@@ -20,7 +20,7 @@ header {
     height: 120px;
     width: 100%;
     align-items: center;
-    background-color:#ffffff;
+    background-color:#c4ddff;
     padding: 20px;
     
     
@@ -99,47 +99,47 @@ main {
 .skjermbilde1 {
     border-radius: 43px;
     position: absolute;
-    width: 233px;
+    width: 260px;
     height: 492px;
-    left: 750px;
+    left: 720px;
     top: 20px;  
     
 }
 
 .skjermbilde2 {
     position: absolute;
-    width: 150px;
-    height: 272px;
-    left: 600px;
-    top: 200px;
+    width: 180px;
+    height: 350px;
+    left: 570px;
+    top: 180px;
     border-radius: 20px;
 }
 
 .skjermbilde3 {
     position: absolute;
-    width: 150px;
-    height: 300px;
-    left: 800px;
-    top: 200px;
+    width: 260px;
+    height: 492px;
+    left: 720px;
+    top: 50px;
     border-radius: 20px;
 }
 
 .skjermbilde4 {
 position: absolute;
-width: 150px;
-height: 300px;
-left: 435px;
-top: 100px;
+width: 260px;
+height: 492px;
+left: 387px;
+top: 10px;
 border-radius: 17px;
 
 }
 
 .skjermbilde5 {
 position: absolute;
-width: 150px;
-height: 299px;
-left: 740px;
-top: 100px;
+width: 260px;
+height: 492px;
+left: 660px;
+top: 10px;
 border-radius: 17px;
 
 }
@@ -166,9 +166,32 @@ border-radius: 17px;
         left: 130px;
       }
 
+.Knapp2 {
+    background-color: #001838;
+        color: #ffffff;
+        border: none;
+        padding: 20px 50px;
+        border-radius: 5px;
+        font-size: 24px;
+
+}
+
+.Knapp2:hover {
+    background-color: #D9E1EB;
+    color: #000000;
+  }
+
+  .Knapp2 {
+    position: absolute;
+    top: 400px;
+    left: 130px;
+  }
+
+
+
 .box1 .title {
     text-align: left;
-    margin-top: 100px;
+    margin-top: 200px;
     padding-left: 6rem;
     color: #000000;
 }
@@ -176,7 +199,7 @@ border-radius: 17px;
 .box1 .description {
     color: #000000;
     padding-left: 6rem;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 .box2 .title {
@@ -198,15 +221,15 @@ padding-left: 4rem;
 .box3 .title1 {
     color: #000000;
     position: absolute;
-    top: 390px;
-    left: 115px;
+    top: 465px;
+    left: 213px;
 }
 
 .box3 .title2 {
     color: #000000;
     text-align: center;
     position: relative;
-    top: 390px;
+    top: 465px;
    
 
    
@@ -216,15 +239,16 @@ padding-left: 4rem;
 .box3 .title3 {
     color: #000000;
     position: absolute;
-    top: 390px;
-    left: 715px;
+    top: 465px;
+    left: 690px;
 }
 
 
 .app {
     position: absolute;
     border-radius: 9px;
-    top: 250px;
-    left: 100px;
+    top: 210px;
+    left: 200px;
     
 }
+
