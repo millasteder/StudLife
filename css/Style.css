@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 html {
     font-size: 20px;
@@ -7,7 +8,7 @@ html {
 body {
     
     background-color: #ffffff;
-    font-family: 'Roboto', sans-serif; color: #000000;
+    font-family: 'Roboto', sans-serif; color: #001838;
     font-size: 20px;
     
     
@@ -17,15 +18,17 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 120px;
+    height: 250px;
     width: 100%;
     align-items: center;
     background-color:#c5d7f0;
-    padding: 20px;
-    
-    
-   
+    padding: 20px;   
+}
 
+.title {
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;  
+    
 }
 
 .logo {
@@ -56,7 +59,16 @@ header nav ul li:hover {
 header ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 30px;
+    font-size: 25px;
+
+}
+
+.headline {
+    font-family:'Anton', sans-serif; 
+    font-size: 4rem;
+    color: #054a9d;
+    text-shadow: 0px 20px 1px rgba(95, 99, 213, 0.6);
 }
 
 main {
@@ -68,9 +80,10 @@ main {
 .box1 {
     background-color: #8bbfff ;
     width: 100%;
+    max-width: 1200px;
     border-radius: 9px;
     display: flex;
-    margin: 4rem 0;
+    margin: 4rem auto;
 }
 
 .box1-imgContainer {
@@ -85,9 +98,9 @@ main {
     flex-flow: column nowrap;
     align-self: center;
     justify-self: center;
-    width: 50%;
     gap: 1rem;
     padding: 4rem;
+    
 }
 
 .skjermbilde1 {
@@ -113,13 +126,14 @@ main {
   
   .Knapp:hover {
     background-color: #D9E1EB;
-    color: #000000;
+    color: #001838;
   }
 
 
 .box1 .title {
     text-align: left;
-    color: #000000;
+    color: #001838;
+    font-size: 4rem;
 }
 
 .box1 .description {
@@ -130,8 +144,9 @@ main {
 .box2 {
     background-color: #8bbfff ;
     border-radius: 9px;
+    max-width: 1200px;
     display: flex;
-    margin: 4rem 0;
+    margin: 4rem auto;
      
 }
 .box2-text{
@@ -155,10 +170,11 @@ main {
 .box2 .title {
     color: #000000;
    text-align: left;
+   font-size: 2rem;
 }
 
 .box2 .description {
-    color: #000000;
+    color: #001838;
     
 }
 
@@ -191,7 +207,7 @@ main {
 
 .Knapp2:hover {
     background-color: #D9E1EB;
-    color: #000000;
+    color: #001838;
   }
 
  
@@ -199,26 +215,34 @@ main {
 .box3 {
     background-color: #8bbfff;
     border-radius: 9px;
-    margin: 4rem 0;
+    margin: 4rem auto;
     display: flex;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: stretch;
+    gap: 3rem;
 }
 
 .box3-imgContainer {
-    width: 50%;
     align-self: center;
     justify-self: center;
     text-align: center;
 }
 
+.vertical-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
 .box2-imgContainer2 {
-    width: 50%;
     align-self: center;
     justify-self: center;
     text-align: center;
 }
 
 .box2-imgContainer3 {
-    width: 50%;
     align-self: center;
     justify-self: center;
     text-align: center;
@@ -230,8 +254,9 @@ main {
 }
 
 .box3 .title1 {
-    color: #000000;
-    text-align: center; 
+    color: #001838;
+    list-style: none;
+    text-align: center;
 }
 
 
@@ -242,7 +267,7 @@ border-radius: 17px;
 width: auto;
 }
 .box3 .title2 {
-    color: #000000;
+    color: #001838;
     text-align: center; 
 }
 
@@ -255,7 +280,7 @@ width: auto;
 }
 
 .box3 .title3 {
-    color: #000000;
+    color: #001838;
     text-align: center; 
 }
 
