@@ -25,6 +25,13 @@ header {
     padding: 20px;   
 }
 
+@media screen and (min-width: 900px) {
+    main {
+        max-width: 1200px;
+        margin: 1rem auto 1rem auto;
+    }
+} 
+
 .title {
     font-family: 'Anton', sans-serif;
     font-size: 2rem;  
@@ -38,23 +45,7 @@ header {
 header nav ul li:hover {
     text-decoration:underline
 }
-@media screen and (min-width: 700px) {
-    header {
-        justify-content: space-between;
-    }
-}
 
-
-
-@media screen and (max-width: 700px) {
-    .box1,
-    .box2,
-    .box3 {
-        width: 100%;
-        height: auto;
-       
-    }
-}
 
 header ul {
     list-style: none;
@@ -293,3 +284,134 @@ footer {
     justify-content: space-around;
     min-height: 300px;
 }
+
+/*
+@media screen and (min-width: 700px) {
+    header {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .box1,
+    .box2,
+    .box3 {
+        width: 100%;
+        height: auto;
+       
+    }
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+
+}
+.box1 .title {
+    text-align: left;
+    color: #001838;
+    font-size: 2rem;
+}
+
+.Knapp {
+    
+    background-color: #001838;
+    color: #ffffff;
+    padding: 10px 100px;
+    border-radius: 5px;
+    font-size: 20px;
+    max-width: 12rem;
+    
+  }
+  .skjermbilde1 {
+    border-radius: 43px;
+    width: 160px;
+    height: 392px;
+    margin: 10px -60px;
+    width: auto;
+}
+.box1 {
+    background-color: #8bbfff ;
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 9px;
+    display: flex;
+    margin: 4rem auto;
+}
+
+.box1-imgContainer {
+    width: 50%;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+.box1-text {
+    display: flex;
+    flex-flow: column nowrap;
+    align-self: center;
+    justify-self: center;
+    gap: 1rem;
+    padding: 2rem;
+    
+}
+.box2 {
+    background-color: #8bbfff ;
+    border-radius: 9px;
+    max-width: 1200px;
+    display: flex;
+    margin: 4rem auto;
+     
+}
+.box2-text{
+    display: flex;
+    flex-flow: column nowrap;
+    align-self: center;
+    justify-self: center;
+    width: 50%;
+    gap: 1rem;
+    padding: 1rem; 
+}
+
+
+
+
+.box2 .title {
+    color: #000000;
+   text-align: left;
+   font-size: 1.2rem;
+}
+
+.box2 .description {
+    color: #001838;
+    
+}
+
+
+.skjermbilde3 {
+    
+    width: 260px;
+    height: 492px;
+    margin: 1rem auto 1rem auto;
+    width: auto;
+    border-radius: 20px;
+}
+.Knapp2 {
+    background-color: #001838;
+        color: #ffffff;
+        border: none;
+        padding: 20px 50px;
+        border-radius: 5px;
+        font-size: 24px;
+        max-width: 12rem;
+
+}
+
+.Knapp2:hover {
+    background-color: #D9E1EB;
+    color: #001838;
+  }
+*/
+
