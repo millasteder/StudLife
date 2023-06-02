@@ -25,12 +25,11 @@ header {
     padding: 20px;   
 }
 
-@media screen and (min-width: 900px) {
     main {
         max-width: 1200px;
         margin: 1rem auto 1rem auto;
     }
-} 
+
 
 .title {
     font-family: 'Anton', sans-serif;
@@ -75,13 +74,15 @@ main {
     border-radius: 9px;
     display: flex;
     margin: 4rem auto;
+    flex-flow: row wrap;
 }
 
 .box1-imgContainer {
-    width: 50%;
+    flex: 1;
     align-self: center;
     justify-self: center;
     text-align: center;
+    min-width: 20rem;
 }
 
 .box1-text {
@@ -91,6 +92,7 @@ main {
     justify-self: center;
     gap: 1rem;
     padding: 4rem;
+    flex: 1;
     
 }
 
@@ -102,23 +104,6 @@ main {
     width: auto;
 }
 
-
-.Knapp {
-    
-    background-color: #001838;
-    color: #ffffff;
-    border: none;
-    padding: 20px 50px;
-    border-radius: 5px;
-    font-size: 24px;
-    max-width: 12rem;
-    
-  }
-  
-  .Knapp:hover {
-    background-color: #D9E1EB;
-    color: #001838;
-  }
 
 
 .box1 .title {
@@ -138,6 +123,7 @@ main {
     max-width: 1200px;
     display: flex;
     margin: 4rem auto;
+    flex-flow: row wrap;
      
 }
 .box2-text{
@@ -145,13 +131,13 @@ main {
     flex-flow: column nowrap;
     align-self: center;
     justify-self: center;
-    width: 50%;
+    flex: 1;
     gap: 1rem;
     padding: 4rem; 
 }
 
 .box2-imgContainer {
-    width: 50%;
+    flex: 1;
     align-self: center;
     justify-self: center;
     text-align: center;
@@ -186,7 +172,7 @@ main {
     border-radius: 20px;
 }
 .Knapp2 {
-    background-color: #001838;
+        background-color: #001838;
         color: #ffffff;
         border: none;
         padding: 20px 50px;
@@ -212,13 +198,18 @@ main {
     justify-content: center;
     align-items: stretch;
     gap: 3rem;
+    flex-flow: row wrap;
 }
 
 .box3-imgContainer {
     align-self: center;
     justify-self: center;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column nowrap;
 }
+
 
 .vertical-container {
     display: flex;
@@ -244,10 +235,11 @@ main {
     width: auto;
 }
 
-.box3 .title1 {
+.box3 .title1 a {
     color: #001838;
     list-style: none;
     text-align: center;
+    text-decoration: none;
 }
 
 
@@ -257,7 +249,7 @@ height: 492px;
 border-radius: 17px;
 width: auto;
 }
-.box3 .title2 {
+.box3 .title2 a {
     color: #001838;
     text-align: center; 
 }
@@ -270,7 +262,7 @@ border-radius: 17px;
 width: auto;
 }
 
-.box3 .title3 {
+.box3 .title3 a {
     color: #001838;
     text-align: center; 
 }
@@ -285,22 +277,26 @@ footer {
     min-height: 300px;
 }
 
-/*
-@media screen and (min-width: 700px) {
+/* media qureis */ 
+
+@media screen and (max-width: 920px) { /* mobil versjon */
+
+    main {
+        padding-top: 1rem;
+    }
     header {
         justify-content: space-between;
     }
-}
 
-@media screen and (max-width: 700px) {
-    .box1,
+
+   /*  .box1,
     .box2,
     .box3 {
         width: 100%;
         height: auto;
        
-    }
-}
+    } */
+
 
 header ul {
     list-style: none;
@@ -315,16 +311,7 @@ header ul {
     font-size: 2rem;
 }
 
-.Knapp {
-    
-    background-color: #001838;
-    color: #ffffff;
-    padding: 10px 100px;
-    border-radius: 5px;
-    font-size: 20px;
-    max-width: 12rem;
-    
-  }
+
   .skjermbilde1 {
     border-radius: 43px;
     width: 160px;
@@ -332,13 +319,11 @@ header ul {
     margin: 10px -60px;
     width: auto;
 }
+ .skjermbilde2 {
+    display: none;
+ }
 .box1 {
-    background-color: #8bbfff ;
-    width: 100%;
-    max-width: 1200px;
-    border-radius: 9px;
-    display: flex;
-    margin: 4rem auto;
+    margin: 1rem auto;
 }
 
 .box1-imgContainer {
@@ -358,11 +343,7 @@ header ul {
     
 }
 .box2 {
-    background-color: #8bbfff ;
-    border-radius: 9px;
-    max-width: 1200px;
-    display: flex;
-    margin: 4rem auto;
+    margin: 1rem auto;
      
 }
 .box2-text{
@@ -413,5 +394,12 @@ header ul {
     background-color: #D9E1EB;
     color: #001838;
   }
-*/
+ 
+}
+
+@media screen and (max-width: 500px) {
+    .box1-text {
+        text-align: center;
+    }
+}
 
