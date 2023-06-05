@@ -180,7 +180,6 @@ main {
     margin: 4rem auto;
     display: flex;
     max-width: 1200px;
-    flex-direction: column;
     justify-content: center;
     gap: 3rem;
     flex-flow: row wrap;
@@ -193,8 +192,9 @@ main {
     text-align: center;
     display: flex;
     justify-content: space-between;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     gap: 10px;
+    text-align: center;
     
 }
 
@@ -285,29 +285,33 @@ footer {
     main {
         padding-top: 1rem;
     }
+    
     header {
         justify-content: space-between;
     }
+
     .box2-text {
         width: 100%;
-      }
+    }
 
-
-
-      .box1 .title {
+    .box1 .title {
         text-align: left;
         color: #001838;
         font-size: 2rem;
     }
 
-    .skjermbilde2 {
-    display: none;
- }
-    .box1 {
-    margin: 1rem auto;
-}
+    .box3-imgContainer2, .box3-imgContainer3 {
+        width: 100%;
+    }
 
-    
+    .skjermbilde2 {
+        display: none;
+    }
+
+    .box1 {
+        margin: 1rem auto;
+    }
+
 
 .box1-text {
     display: flex;
@@ -331,12 +335,14 @@ footer {
   .skjermbilde2 {
     margin-top: 20px;
   }
+}
 
 
 @media screen and (max-width: 500px) {
     .box1-text  {
         text-align: center;
     }
+
     .box1 .title{
         text-align: center;
     }
@@ -345,25 +351,27 @@ footer {
         align-self: center;
         justify-self: center;
     }
+
     .box2-text {
         text-align: center;
     }
+
     .box2 .title {
         text-align: center;
     }   
-    .box3 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
+   
       
-      .box3-imgContainer {
+     .box3-imgContainer {
         text-align: center;
-      }
-      
-      .box3 .title1,
-      .box3 .title2,
-      .box3 .title3 {
-        text-align: center;
-      }  
     }
+      
+    .box3 .title1,
+    .box3 .title2,
+    .box3 .title3 {
+    text-align: center;
+    }  
+
+    .strech-flex {
+    width: 100%;
+    }
+}
