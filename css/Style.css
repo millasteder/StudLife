@@ -32,8 +32,8 @@ header {
  .headline {
     font-family:'Anton', sans-serif; 
     font-size: 4rem;
-    color: #054a9d;
-    text-shadow: 0px 20px 1px rgba(95, 99, 213, 0.6);
+    color: #6314ec;
+    text-shadow: 0px 10px 1px rgba(117, 104, 146, 0.6);
     text-align: center;
     margin: 0 auto;
     
@@ -97,7 +97,7 @@ main {
 }
 
 .box1 .description {
-    color: #000000;
+    color: #001838;
 }
 
 
@@ -129,7 +129,7 @@ main {
 
 
 .box2 .title {
-    color: #000000;
+    color: #001838;
    text-align: left;
    font-size: 2rem;
 }
@@ -193,7 +193,8 @@ main {
     text-align: center;
     display: flex;
     justify-content: space-between;
-    flex-flow: column nowrap;
+    flex-flow: row nowrap;
+    gap: 10px;
     
 }
 
@@ -211,7 +212,6 @@ main {
 
 .app {
     border-radius: 9px;
-    margin: 1rem auto 0 auto;
     width: auto;
 }
 .skjermbilde4 {
@@ -255,7 +255,20 @@ main {
         text-align: center;
         
       }  
-
+      
+      .strech-flex {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+      }
+      
+      .align-ver {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
 
 footer {
     background-color: #c5d7f0;
